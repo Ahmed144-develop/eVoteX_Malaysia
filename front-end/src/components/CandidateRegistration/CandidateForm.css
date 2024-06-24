@@ -1,0 +1,98 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins-Regular";
+  font-size: 15px;
+  color: #666;
+  background-color: var(--secondary-color);
+  margin: 0;
+}
+
+:focus {
+  outline: none;
+}
+
+.candidate-form-container {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.candidate-form {
+  background-color: rgb(224, 222, 222);
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.candidate-form h1 {
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: .5rem;
+}
+
+.candidate-form label {
+  display: flex;
+  margin-bottom: .5rem;
+  color: #010066;
+}
+
+.candidate-form input,
+.candidate-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.candidate-form-checkbox {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 6px;
+  margin-left: -28rem;
+}
+
+.candidate-form label[for="campaignFile"],
+.candidate-form label[for="depositPhoto"] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: #fff;
+}
+
+.text-danger {
+  color: red;
+  font-size: 12px;
+}
+
+
+.candidate-form button {
+  background-color: var(--main-color);
+  color: #fff;
+  margin-left: 1rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.5s ease;
+}
+
+.candidate-form-checkbox label {
+  display: inline-flex;
+  margin-left: -25rem;
+}
+
+.candidate-form button:hover {
+  background: var(--main-color);
+  box-shadow: 0 0 1rem #6645eb;
+}

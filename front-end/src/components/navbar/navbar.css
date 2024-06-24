@@ -1,0 +1,79 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 10%;
+    background: #FFEDBC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky {
+    border-bottom: .3rem solid rgba(198, 28, 28, 0.2);
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #010066;
+    font-weight: 600;
+    cursor: default;
+    display: contents;
+    flex-wrap: wrap;
+}
+
+.nav {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    transition: .2s;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20rem;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #FFEDBC;
+        text-align: center;
+    }
+
+    .nav.show {
+        display: flex;
+    }
+
+    .nav a {
+        margin: 10px;
+    }
+
+    .nav a:hover,
+    .nav a.activate {
+        color: var(--main-color);
+    }
+
+    .burger-menu {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}

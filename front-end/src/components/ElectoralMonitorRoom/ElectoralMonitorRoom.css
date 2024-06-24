@@ -1,0 +1,45 @@
+.electoral-monitor-room {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.electoral-monitor-room h2 {
+    text-align: center;
+    text-decoration-style: solid;
+    margin-bottom: 10px;
+    color: #0056B3;
+}
+
+.electoral-monitor-room table {
+    width: fit-content;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.electoral-monitor-room th,
+.electoral-monitor-room td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.electoral-monitor-room th {
+    background-color: #f2f2f2;
+}
+
+.electoral-monitor-room tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+.electoral-monitor-room td:last-child {
+    text-align: center;
+}
+
+.electoral-monitor-room tbody tr:hover {
+    background-color: #e6f7ff;
+}

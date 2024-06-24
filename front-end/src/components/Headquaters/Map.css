@@ -1,0 +1,56 @@
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 15px 6px var(--main-color);
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.VotersMap form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-wrap: wrap;
+  font-size: medium;
+}
+
+h1{
+  color: #0056B3;
+  text-align: center;
+}
+
+.VotersMap label {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.VotersMap input {
+  padding: 5px 10px;
+  font-size: 16px;
+  width: calc(100% - 20px); 
+  border-radius: 5px;
+}
+
+.VotersMap button {
+  padding: 5px 10px;
+  width: calc(100% - 20px);
+  font-size: 16px;
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: rgb(255, 254, 254);
+  border: none;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.VotersMap button:hover {
+  background-color: #0056B3;
+}
+
+.VotersMap .leaflet-container {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+

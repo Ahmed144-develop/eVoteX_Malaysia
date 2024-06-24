@@ -1,0 +1,54 @@
+.candidates-list {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width:fit-content;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .candidates-list h2 {
+    text-align: center;
+    text-decoration-style: solid;
+    margin-bottom: 10px;
+    color: #0056B3;
+  }
+  
+  .candidates-list .summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .candidates-list table {
+    width:fit-content;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .candidates-list th,
+  .candidates-list td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .candidates-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .candidates-list tbody tr:hover {
+    background-color: #e6f7ff;
+  }
+  
+  .candidates-list td:last-child {
+    text-align: center;
+  }
+  
+  .candidates-list tbody tr:hover {
+    background-color: #e6f7ff;
+  }
+  

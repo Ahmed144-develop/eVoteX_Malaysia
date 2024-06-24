@@ -1,0 +1,77 @@
+.dashboard {
+    font-family: Open Sans, sans-serif;
+    background-color: #fafafa; 
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 30px 10px; 
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--text-color);
+    font-size: larger;
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dashboard-card-container {
+    padding: 10px;
+    display: flex;
+  }
+  
+  .dashboard-candidates-box {
+    height: 400px;
+    width: 400px;
+    box-shadow: 0px 6px 5px var(--main-color);
+    margin-right: 20px;
+    margin-left: 15px; 
+  }
+  
+  .dashboard-candidates-box:last-child {
+    margin-right: 0; 
+  }
+  
+  .dashboard-candidates-box img {
+    width: 100%;
+    height: 40%;
+    object-fit:fill;
+  }
+  
+  .dashboard-candidates-layer {
+    padding: 20px;
+    color: #333;
+    background-color: #fff;
+    height: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .dashboard-candidates-layer h4 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    color: #007BFF;
+    text-decoration-style: double;
+  }
+  
+  .dashboard-candidates-layer p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .dashboard-candidates-layer a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .bx-link-external {
+    margin-left: 5px;
+  }
